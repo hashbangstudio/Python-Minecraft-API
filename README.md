@@ -9,27 +9,28 @@ All other files and alterations released under LICENSE.txt
 
 Original Files:
 
-__init__.py
-block.py
-connection.py
-event.py
-minecraft.py
-util.py
-vec3.py
+1. `__init__.py`
+2. `block.py`
+3. `connection.py`
+4. `event.py`
+5. `minecraft.py`
+6. `util.py`
+7. `vec3.py`
+
 
 To run tests in top level folder (where the README is located) run:
 
-python -m unittest discover
+`python -m unittest discover`
 
 Optionally you can add a -v to the end of the command for verbose output
 
-python -m unittest discover -v
+`python -m unittest discover -v`
 
 If the Minecraft Pi instance is not available or not running a rough stub for the Minecraft world is available
 
 In another shell change directory to the tests folder and run the following command
 
-python MinecraftTCPServerStub.py
+`python MinecraftTCPServerStub.py`
 
 To end the running server instance press ctrl+c
 
