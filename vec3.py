@@ -15,9 +15,11 @@ class Vec3:
         self.z += rhs.z
         return self
 
+    @property
     def length(self):
-        return self.lengthSqr() ** .5
+        return self.lengthSqr ** .5
 
+    @property
     def lengthSqr(self):
         return self.x * self.x + self.y * self.y  + self.z * self.z
 

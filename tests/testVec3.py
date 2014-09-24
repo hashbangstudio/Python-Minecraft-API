@@ -97,13 +97,13 @@ class TestVec3(unittest.TestCase):
 
     def testLength(self):
         v = Vec3(2, -3, 8)
-        l = v.length()
+        l = v.length
         ls = ((2*2) + (-3*-3) + (8*8))
         self.assertEqual(l, (ls ** 0.5))
 
     def testLengthSqr(self):
         v = Vec3(2, -3, 8)
-        ls = v.lengthSqr()
+        ls = v.lengthSqr
         self.assertEqual(ls, ((2*2) + (-3*-3) + (8*8)))
 
 if __name__ == '__main__':
